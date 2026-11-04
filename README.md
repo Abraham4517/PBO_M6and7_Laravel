@@ -63,3 +63,21 @@ cd pbo-laravel
 ```bash
 composer install
 ```
+
+4. Salin file konfigurasi bawaan agar proyek memiliki file `.env` sendiri:
+```bash
+cp .env.example .env
+```
+
+5. Ketik perintah berikut untuk memproduksi kunci keamanan baru
+```bash
+php artisan key:generate
+```
+
+6. Nyalakan mesin server *development* bawaan Laravel:
+```bash
+php artisan serve
+```
+
+Buka *browser* (Chrome/Edge/Firefox) dan ketikkan alamat berikut di kolom URL:
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
