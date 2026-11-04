@@ -40,11 +40,9 @@ Agar komputermu kenal perintah php :
 
 **Composer**
 
-Akan ada halaman yang meminta lokasi file PHP. 
-
-Pastikan lokasinya mengarah ke C:\xampp\php\php.exe.
-
-Klik Next terus sampai Install, lalu Finish.
+- Akan ada halaman yang meminta lokasi file PHP. 
+- Pastikan lokasinya mengarah ke C:\xampp\php\php.exe.
+- Klik Next terus sampai Install, lalu Finish.
 
 ---
 
