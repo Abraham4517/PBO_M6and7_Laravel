@@ -1,12 +1,12 @@
 # Laravel
 
-[Laravel](https://laravel.com/) adalah kerangka kerja (*framework*) aplikasi web berbasis PHP yang dirancang untuk membuat proses pengembangan web menjadi lebih cepat, elegan, dan terstruktur. Alih-alih membangun semuanya dari nol (seperti *routing*, pengaturan *file*, dan keamanan), Laravel telah menyediakan fondasi tersebut sehingga pengembang dapat langsung fokus pada logika bisnis (kebutuhan aplikasi).
+[Laravel](https://laravel.com/) adalah sebuah *framework* aplikasi web berbasis PHP yang dirancang untuk membuat proses pengembangan web menjadi lebih cepat dan terstruktur. Alih-alih membangun semuanya dari nol (seperti *routing*, pengaturan *file*, dan keamanan), Laravel telah menyediakan fondasi tersebut sehingga pengembang dapat langsung fokus pada kebutuhan aplikasi.
 
 ---
 
 Pola arsitektur **MVC (Model-View-Controller)**:
-*   **Model:** Bagian yang merepresentasikan struktur data dan aturan bisnis (pada tahap ini kita belum menggunakan *database*, melainkan menggunakan *array* statis).
-*   **View:** Bagian yang mengatur tampilan antarmuka (UI) yang dilihat pengguna, menggunakan *template engine* bawaan Laravel yaitu **Blade**.
+*   **Model:** Bagian yang merepresentasikan struktur data dan aturan aplikasi (pada tahap ini kita belum menggunakan *database*, melainkan menggunakan *array*).
+*   **View:** Bagian yang mengatur *User Interface* yang dilihat oleh pengguna, menggunakan *template engine* bawaan Laravel yaitu **Blade**.
 *   **Controller:** Bagian yang bertindak sebagai jembatan pengatur alur; menerima permintaan dari pengguna (*request* lewat *Route*), mengolah data, dan mengirimkannya ke *View*.
 
 ---
@@ -79,3 +79,6 @@ php artisan serve
 
 Buka *browser* (Chrome/Edge/Firefox) dan ketikkan alamat berikut di kolom URL:
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+---
+
